@@ -1,47 +1,34 @@
 package com.example.flighttracker
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.flighttracker.ui.theme.FlighttrackerTheme
+import android.widget.Button
+import android.widget.EditText
+import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : ComponentActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContent {
-            FlighttrackerTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+        setContentView(R.layout.activity_main)
+
+        // Flight input and tracking button
+        val etFlightNumber = findViewById<EditText>(R.id.etFlightNumber)
+        val btnTrackFlight = findViewById<Button>(R.id.btnTrackFlight)
+        btnTrackFlight.setOnClickListener {
+            val flightNumber = etFlightNumber.text.toString().trim()
+            if (flightNumber.isEmpty()) {
+                etFlightNumber.error = "Enter flight IATA code"
+                return@setOnClickListener
             }
+            val intent = Intent(this, FlightTrackerActivity::class.java)
+            intent.putExtra("flightNumber", flightNumber)
+            startActivity(intent)
         }
-    }
-}
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    FlighttrackerTheme {
-        Greeting("Android")
+        // Average Flight Time button
+        val btnAvgFlightTime = findViewById<Button>(R.id.btnAvgFlightTime)
+        btnAvgFlightTime.setOnClickListener {
+            startActivity(Intent(this, AverageTimeActivity::class.java))
+        }
     }
 }

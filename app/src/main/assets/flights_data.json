@@ -1,0 +1,122 @@
+[
+  {
+    "id": "AIC678-2025-04-08",
+    "aircraft": "A20N",
+    "origin": "Indira Gandhi Int'l (DEL / VIDP)",
+    "destination": "Chatrapati Shivaji Int'l (BOM / VABB)",
+    "departure": "08:54AM IST",
+    "arrival": "10:34AM IST",
+    "duration_minutes": 99,
+    "date": "2025-04-08"
+  },
+  {
+    "id": "AIC678-2025-04-06",
+    "aircraft": "A20N",
+    "origin": "Indira Gandhi Int'l (DEL / VIDP)",
+    "destination": "Chatrapati Shivaji Int'l (BOM / VABB)",
+    "departure": "08:48AM IST",
+    "arrival": "10:45AM IST",
+    "duration_minutes": 117,
+    "date": "2025-04-06"
+  },
+  {
+    "id": "AIC678-2025-04-05",
+    "aircraft": "A20N",
+    "origin": "Indira Gandhi Int'l (DEL / VIDP)",
+    "destination": "Chatrapati Shivaji Int'l (BOM / VABB)",
+    "departure": "08:50AM IST",
+    "arrival": "10:43AM IST",
+    "duration_minutes": 112,
+    "date": "2025-04-05"
+  },
+  {
+    "id": "AIC678-2025-04-03",
+    "aircraft": "A20N",
+    "origin": "Indira Gandhi Int'l (DEL / VIDP)",
+    "destination": "Chatrapati Shivaji Int'l (BOM / VABB)",
+    "departure": "08:58AM IST",
+    "arrival": "11:09AM IST",
+    "duration_minutes": 131,
+    "date": "2025-04-03"
+  },
+  {
+    "id": "AIC678-2025-04-02",
+    "aircraft": "A20N",
+    "origin": "Indira Gandhi Int'l (DEL / VIDP)",
+    "destination": "Chatrapati Shivaji Int'l (BOM / VABB)",
+    "departure": "09:06AM IST",
+    "arrival": "11:08AM IST",
+    "duration_minutes": 121,
+    "date": "2025-04-02"
+  },
+  {
+    "id": "AIC678-2025-04-01",
+    "aircraft": "A320",
+    "origin": "Indira Gandhi Int'l (DEL / VIDP)",
+    "destination": "Chatrapati Shivaji Int'l (BOM / VABB)",
+    "departure": "08:59AM IST",
+    "arrival": "11:08AM IST",
+    "duration_minutes": 128,
+    "date": "2025-04-01"
+  },
+  {
+    "id": "AIC678-2025-03-31",
+    "aircraft": "A320",
+    "origin": "Indira Gandhi Int'l (DEL / VIDP)",
+    "destination": "Chatrapati Shivaji Int'l (BOM / VABB)",
+    "departure": "08:41AM IST",
+    "arrival": "10:28AM IST",
+    "duration_minutes": 106,
+    "date": "2025-03-31"
+  },
+  {
+    "id": "AIC678-2025-03-30",
+    "aircraft": "A320",
+    "origin": "Indira Gandhi Int'l (DEL / VIDP)",
+    "destination": "Chatrapati Shivaji Int'l (BOM / VABB)",
+    "departure": "08:46AM IST",
+    "arrival": "10:41AM IST",
+    "duration_minutes": 115,
+    "date": "2025-03-30"
+  },
+  {
+    "id": "AIC678-2025-03-29",
+    "aircraft": "A20N",
+    "origin": "Indira Gandhi Int'l (DEL / VIDP)",
+    "destination": "Chatrapati Shivaji Int'l (BOM / VABB)",
+    "departure": "08:54AM IST",
+    "arrival": "10:40AM IST",
+    "duration_minutes": 105,
+    "date": "2025-03-29"
+  },
+  {
+    "id": "AIC678-2025-03-28",
+    "aircraft": "A20N",
+    "origin": "Indira Gandhi Int'l (DEL / VIDP)",
+    "destination": "Chatrapati Shivaji Int'l (BOM / VABB)",
+    "departure": "08:42AM IST",
+    "arrival": "10:27AM IST",
+    "duration_minutes": 104,
+    "date": "2025-03-28"
+  },
+  {
+    "id": "AIC678-2025-03-27",
+    "aircraft": "A20N",
+    "origin": "Indira Gandhi Int'l (DEL / VIDP)",
+    "destination": "Chatrapati Shivaji Int'l (BOM / VABB)",
+    "departure": "09:16AM IST",
+    "arrival": "11:21AM IST",
+    "duration_minutes": 124,
+    "date": "2025-03-27"
+  },
+  {
+    "id": "AIC678-2025-03-26",
+    "aircraft": "A20N",
+    "origin": "Indira Gandhi Int'l (DEL / VIDP)",
+    "destination": "Chatrapati Shivaji Int'l (BOM / VABB)",
+    "departure": "08:43AM IST",
+    "arrival": "10:24AM IST",
+    "duration_minutes": 101,
+    "date": "2025-03-26"
+  }
+]
